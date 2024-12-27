@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Este codigo explica los formularios y esta en la tiempo 1:43:00 del video
+Explica como podemos insertar formularios o la etiquea form y sus diferentes elementos que esta puede contener etiqueta input
+Cada etiqueta puede tener atributos:
+type: elige el tipo de elemento
+name: se asiga el nombre, como si fuera una variable
+minlegth: el minimo de caracteres que se deben ingresar
+required: para hacer que se tenga que ingresar algo en el campo
+placeholder: para escribir un texto que indique algo en el elemento
+velue:indicar el valor que contiene
+-->
+<html>
+    <head>
+        <title>Formularios en HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <input type="text" name="username" minlength="8">
+            <input type="email" name="email" required>
+            <input type="password" name="password" placeholder="Escribe tu password" value="hola">            
+            <input type="checkbox" name="aceptar">
+            <input type="radio" name="aceptar">
+            <input type="file">
+            <input type="submit">
+            <input type="date">
+        </form>
+
+    </body>
+</html>
