@@ -1,0 +1,25 @@
+/*
+Este archivo 
+*/
+/* 
+    Created on : 26 dic. 2024, 21:25:35
+    Author     : gueko
+*/
+
+p{
+    
+    color: red;
+    font-size: 12px;
+}
+
+/*Este es un ejemplo de una clase*/
+.faltante {
+    
+    color:red;
+    font-size: 24px;
+}
+/*Este un ejemplo de un id*/
+#ingediente_secreto{
+    
+    color:blue;
+}
