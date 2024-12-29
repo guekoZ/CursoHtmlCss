@@ -1,6 +1,38 @@
 /*
-
+Este codigo css explica las propiedades que tinen 
 */
 
 
 
+p{
+    
+    color:red;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight:400;
+    font-style:oblique;
+    text-align:justify;
+    line-height: 2;
+    line-padding: 1px;
+    text-transform: capitalize;
+   
+    
+}
+
+
+h1{
+    text-align: center;
+    
+    
+}
+
+samp{
+    
+   text-decoration: line-through;  
+    
+}
+
+a{
+    
+    text-decoration: none;
+}

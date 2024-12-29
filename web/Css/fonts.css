@@ -1,0 +1,31 @@
+/*
+Este codigo CSS trato sobre las tipografias externas, lo que quiere decir es como descargar e
+insertar las tipografias a nuestra pagina utilizando archivos externos
+*/
+
+
+@font-face{
+    
+    font-family: "Lato";
+    src:url("Lato/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+ 
+}
+
+@font-face{
+    
+    font-family: "Lato";
+    src:url("Lato/Lato-Black.ttf") format("truetype");
+    font-weight: 900;
+    
+}
+
+@font-face{
+    
+    font-family: "Lato";
+    src:url("Lato/Lato-Light.ttf") format("truetype");
+    font-weight: 100;
+         
+    
+}
+
