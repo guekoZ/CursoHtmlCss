@@ -1,0 +1,21 @@
+/*Este codigo se explica en la seccion de bordes 3:37:57 - Bordes */
+
+div{
+    background: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    
+    /*border: 5px solid black 
+    
+    border-top-color
+    border-left-color
+    border-bottom-right-raduis
+    */
+    border-radius: 4px;
+    
+}
