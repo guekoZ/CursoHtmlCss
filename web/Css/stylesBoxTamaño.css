@@ -1,0 +1,41 @@
+/*
+
+Este codigo explica en la parte 03:53:00 del video y explica lo referente a tamaños de cajas y los tipos de configuraciones para esto 
+
+*/
+/* 
+    Created on : 5 ene 2025, 8:07:07
+    Author     : gueko
+*/
+
+
+body{
+    
+    margin: 0;
+        
+}
+
+.box{
+    
+    width:  100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+    
+}
+
+.box-default{
+    padding: 25px;
+    border: 5px solid black;
+    
+}
+
+.box-new{
+    /*Esta propiedad configura el tamaña y clacula de forma diferente el tamaño de la caja
+    en este caso no suma el margen, padding y el border, si no que ajusta el tamaña de las tres propiedades*/
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+    
+    
+}

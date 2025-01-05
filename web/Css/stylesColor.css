@@ -1,0 +1,36 @@
+/*
+Este codigo explica las difentes formas de poner color en nuestros proyectos
+RGB, RGBA y hexadecimal se explica en la parte 04:03:09 del video
+*/
+/* 
+    Created on : 5 ene 2025, 8:38:45
+    Author     : gueko
+*/
+
+
+.box{
+    
+    padding: 50px;
+    margin: 20px;
+    margin-left: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    /* se puede utilizar el rgba
+    background:  rgb(255,100,56);*/
+    
+    /*Este tipo de forma de asignar el color es con hexadecimal*/
+    /*background: #ff6699;*/
+    
+    /*En esta caso el primer valor es el rojo que empieza en el 0 y de alli son los 360 grados
+    Los otros valores son opacidad y la luminucidad del color*/
+    
+    background: hsl(210,80%,80%);
+    color:hsl(210,40%,45%);
+    border-top: 2px solid hsl(50, 60%, 45%);
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+    
+}
