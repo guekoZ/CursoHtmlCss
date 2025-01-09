@@ -7,24 +7,28 @@ Este archivo trata sobre como se tratan los fondos y se explica en la parte 04:5
     Author     : gueko
 */
 body{
-    background-color: #0f0;
+    background-color: #15f0;
+    margin: 0;
+    font-family: sans-serif;
         
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin: 20px;
+    margin: 0;
     background-color: #f3e1;
-    background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png);
-    
+    background-image: url(data:image/png;base64,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);
+     background-attachment: fixed;
     /*background-size: 100%;*/
    /* background-size: contain;*/
-   background-size: 40px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     /*background-repeat: no-repeat;*/
-    background-repeat: repeat-x;
+    /*background-repeat: repeat-x;*/
+    
+   
     
     
     /*position: absolute;

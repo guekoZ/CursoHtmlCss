@@ -1,0 +1,41 @@
+/*
+Este codigo explica como se usan los gradientes se explica en la parte 05:06:51 del video
+*/
+/* 
+    Created on : 8 ene 2025, 20:01:59
+    Author     : gueko
+*/
+body{
+    background-color:  red;
+    margin: 0;
+    
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    /*background: radial-gradient(green,#000a);*/
+    /*background: conic-gradient(green,#000a);*/
+    
+        background: linear-gradient(to left, transparent,#000a);
+    /*background: linear-gradient(transparent,#000a);*/
+    margin: 0;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
+    
+    
+    
+    
+}
+
+h1{
+    margin: 0;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    font-family:  sans-serif;
+     
+    
+}

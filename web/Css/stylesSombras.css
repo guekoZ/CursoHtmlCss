@@ -1,0 +1,57 @@
+/*
+Esta parte explica sobre las sombras y esta en la parte 5:17:03
+*/
+/* 
+    Created on : 8 ene 2025, 20:23:40
+    Author     : gueko
+*/
+
+
+body{
+    
+    margin: 0;
+    
+    
+}
+
+.box{
+    width: 300px;
+    /*height: 400px;*/
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 0 #0007;
+    padding: 20px;
+    box-sizing: border-box;
+        
+    font-family: sans-serif;
+    color: #444;
+    
+    text-align: center;
+    
+    
+    
+}
+
+p{
+   list-style: none;
+   text-align: justify;
+   font-size: 15px;
+   line-height: 1.4;
+   text-shadow: 0 0 5px #f88;
+        
+}
+
+img{
+    width: 200px;
+    border-radius: 100%;
+    margin:auto;
+    box-shadow: 0 0 10px 1px #000;
+    /*
+    Con esta propiedad crea una sombra a imagenes png que tienen no tinen fondo
+    
+    filter:drop-shadow(0 0 3px #f92);
+    
+    */
+    
+}
