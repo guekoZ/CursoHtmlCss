@@ -1,0 +1,85 @@
+/*
+
+
+
+*/
+/* 
+    Created on : 11 ene 2025, 16:38:04
+    Author     : gueko
+*/
+
+
+body{
+   margin: 0;
+   font-family: sans-serif;
+   color: #444;
+   background-color: #222;
+      
+}
+
+input, textarea{
+    
+    width:100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: none;
+    border-left: 1px solid #666;
+    box-shadow: 0px 0px 15px #0003;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+      
+}
+
+textarea{
+   
+    min-width: 100%;
+    resize: none;
+    min-height: 100px;
+    font-family: sans-serif;
+    font-size: 12px;
+        
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+    
+}
+
+form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #0003;
+    margin-top: 50px;
+    border-radius: 10px;
+        
+}
+
+.form_input{
+    
+ padding: 6px 20px;
+   
+}
+
+label{
+    
+    font-size:  .88em;
+    line-height: 2;
+    
+    
+}
+
+.checkbox{
+    
+ width:auto;  
+height: 10px; 
+    
+}
