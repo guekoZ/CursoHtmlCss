@@ -10,15 +10,15 @@
 
 
 body{
-   margin: 0;
-   font-family: sans-serif;
-   color: #444;
-   background-color: #222;
-      
+    margin: 0;
+    font-family: sans-serif;
+    color: #444;
+    background-color: #222;
+
 }
 
-input, textarea{
-    
+input, textarea, select{
+
     width:100%;
     box-sizing: border-box;
     padding: 8px 12px;
@@ -28,17 +28,22 @@ input, textarea{
     background-color: transparent;
     border-radius: 4px;
     color: #eee;
-      
+
+}
+
+option{
+    background-color:#222;
+
 }
 
 textarea{
-   
+
     min-width: 100%;
     resize: none;
     min-height: 100px;
     font-family: sans-serif;
     font-size: 12px;
-        
+
 }
 
 h2{
@@ -49,7 +54,7 @@ h2{
     font-weight: 100;
     font-size: 22px;
     padding: 10px;
-    
+
 }
 
 form{
@@ -60,26 +65,26 @@ form{
     box-shadow: 0px 0px 55px #0003;
     margin-top: 50px;
     border-radius: 10px;
-        
+
 }
 
 .form_input{
-    
- padding: 6px 20px;
-   
+
+    padding: 6px 20px;
+
 }
 
 label{
-    
+
     font-size:  .88em;
     line-height: 2;
-    
-    
+
+
 }
 
 .checkbox{
-    
- width:auto;  
-height: 10px; 
-    
+
+    width:auto;
+    height: 10px;
+
 }
