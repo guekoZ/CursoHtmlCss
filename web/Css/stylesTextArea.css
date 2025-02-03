@@ -1,6 +1,7 @@
 /*
 
-
+Este codigo se creo en la parte del video 5:57:00 al 06:44:00 y trata sobre formularios 
+como por ejemplo como agregar labels, inputs, texareas etc...
 
 */
 /* 
@@ -88,3 +89,17 @@ label{
     height: 10px;
 
 }
+
+fieldset{
+    
+    margin: 10px 0;
+    border: 2px solid #666;
+    border-radius: 5px;
+    padding: 8px 6px 20px 6px;
+}
+
+legend{
+    padding: 0 6px;
+   
+}
+
